@@ -1,0 +1,30 @@
+position relative : Relative olarak konumlandırılmış bir etiketin top, bottom, left ve right özelliklerinin ayarlanması
+normal konumundan uzağa ayarlanmasına neden olacaktır.
+
+position static : Verilen bi etkenin sabit olduğunu belirtir. left,right,bottom,top değerleri alamaz.
+
+position:absolute : özelliği olan bir eleman en yakın pozisyon değeri relative olan elemana göre kendini konumlandırır
+
+position fixed : özelliğini alan bir eleman yerleştirilen pozisyonda sürekli olarak görünmesini sağlar 
+
+section : sayfada her yerde kullanılabilir ve sayfadaki herhangi bir bölümü temsil eder.
+
+align-items : Bu özellik justify-content'in yatay eksende yaptığı şeyleri dikey eksende yapmaya yarar
+
+article : sitede bağımsız olarak kullanılabilir ve dağıtılabilir-yerleştirilebilir.
+
+inherit : sayfada bulunan bir özelliği kendine alır. (Örneğin: font: inherit) "sayfadaki font family'i alır"
+
+Ctrl + ö : "/* */"
+
+scale özelliği : /* .test {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.test:hover {
+    transform: scale(1.5);
+} */
+
+object-fit: özelliği bir görsel veya video etiketlerinin kabına sığdırmak için nasıl yeniden boyutlandırılması gerektiğini belirtmek için kullanılır.

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:wght@400;700&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css files/config.css">
+    <link rel="stylesheet" href="css files/game.css">
+    <link rel="stylesheet" href="css files/kaplamalar.css">
+    <link rel="stylesheet" href="css files/styles.css">
+    <script src="scripts/config.js" defer></script>
+    <script src="scripts/game.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+    <title>X o X Game</title>
+</head>
+
+<body>
+    <div id="backDrop"></div>
+    <header id="mainHeader">
+        <h1> Play X o X Game </h1>
+        <p> Built with HTML , CSS , JavaScript and - Made by PederExMw </p>
+    </header>
+    <main>
+        <aside class="model" id="configOverlay">
+            <h2> Choose Your Name </h2>
+
+            <form>
+                <div class="formControl">
+                    <label for="playername"> Player Name </label>
+                    <input type="text" name="playername" id="playername" />
+                </div>
+                <p id="configErrors"></p>
+                <div>
+                    <button type="reset" class="btn btnAlt" id="cancelBtn1"> Cancel </button>
+                    <button type="submit" class="btn"> Confirm </button>
+                </div>
+            </form>
+        </aside>
+        <section id="gameConfig">
+            <ol>
+                <li>
+                    <article id="player-1-data">
+                        <h2> Player 1 </h2>
+                        <h3> PLAYER NAME </h3>
+                        <p class="playerSembol"> X </p>
+                        <button class="btn btnAlt" id="editPlayerBtn1" data-playerid="1"> Edit </button>
+                    </article>
+                </li>
+                <li>
+                    <article id="player-2-data">
+                        <h2> Player 2 </h2>
+                        <h3> PLAYER NAME </h3>
+                        <p class="playerSembol"> O </p>
+                        <button class="btn btnAlt" id="editPlayerBtn2" data-playerid="2"> Edit </button>
+                    </article>
+                </li>
+            </ol>
+            <button class="btn" id="startGameBtn"> Start New Game </button>
+        </section>
+        <section id="activeGame">
+            <article id="gameOver">
+                <h2> You Win! <span id="winnerName"> PLAYER NAME </span>!</h2>
+                <p> Click "Start New Game" above, to start new game! </p>
+            </article>
+
+
+            <p>It's Your Turn <span id="activePlayername">PLAYER NAME</span>!</p>
+            <ol id="gameBoard">
+                <li data-col="1" data-row="1"></li>
+                <li data-col="2" data-row="1"></li>
+                <li data-col="3" data-row="1"></li>
+
+                <li data-col="1" data-row="2"></li>
+                <li data-col="2" data-row="2"></li>
+                <li data-col="3" data-row="2"></li>
+
+                <li data-col="1" data-row="3"></li>
+                <li data-col="2" data-row="3"></li>
+                <li data-col="3" data-row="3"></li>
+
+            </ol>
+        </section>
+    </main>
+
+</body>
+
+</html>

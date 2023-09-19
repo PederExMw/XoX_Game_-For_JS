@@ -1,0 +1,83 @@
+#ana {
+    height: 970px;
+    background-image: url("images/resim/back.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#ana-icerik {
+    width: 550px;
+    height: 180px;
+    background-color: rgba(102, 51, 139, 0.8);
+    box-shadow: 2px 4px 8px rgb(213, 184, 255);
+    border-radius: 8px;
+    text-align: center;
+    padding: 60px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#ana-icerik h1 {
+    font-size: 25px;
+    font-weight: 200px;
+    color: violet;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#ana-icerik p {
+    color: white;
+    font-family: 'Crimson Text', serif;
+    margin-bottom: 32px;
+}
+
+#ana-icerik a {
+    text-decoration: none;
+    padding: 10px;
+    color: seashell;
+    background-color: rgb(192, 8, 8);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: transform .2s;
+    box-shadow: 2px 4px 8px rgb(48, 10, 100);
+}
+
+#ana-icerik a:hover {
+    background-color: tomato;
+    font-size: 18px;
+}
+
+#foto2 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+
+#yan h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(70, 56, 54);
+}
+
+.git {
+    margin: 0 20px;
+}
+
+
+.git p {
+    text-align: center;
+
+}
+
+.git img {
+    height: 200px;
+    width: 100%;
+}
+
+footer {
+    background: linear-gradient(70deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
